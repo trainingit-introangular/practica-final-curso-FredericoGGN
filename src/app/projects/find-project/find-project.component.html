@@ -1,0 +1,20 @@
+<h2>
+  Buscador de proyectos
+</h2>
+<form>
+ <label for="nombre">Nombre:</label>
+ <input name="nombre" [(ngModel)]="this.nombre" />
+ <button (click)="find()">Buscar</button>
+</form>
+
+<div [ngClass]="{'hidden':this.resultsHidden}">
+  <p>Elementos encontrados:</p>
+  <table>
+    <tr>
+      <th>Nombre</th>
+    </tr>
+    <tr *ngFor="let nombre of this.filteredProjects">
+      <td>{{nombre}}</td>
+    </tr>
+  </table>
+</div>

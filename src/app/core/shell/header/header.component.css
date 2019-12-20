@@ -1,0 +1,22 @@
+.toolbar {
+  height: 60px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background-color: #197fe6;
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+
+.toolbar .button {
+  height: 20px;
+  margin: 0 16px;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
