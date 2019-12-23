@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:prod": "ng build --prod",
-    "build:pub": "ng build --prod --output-path docs --base-href https://github.com/trainingit-introangular/practica-final-curso-FredericoGGN",
+    "build:pub": "ng build --prod --output-path docs --base-href https://introangular4.github.io/practica4-FredericoGGN/.",
     "pub": "npm run build:pub && npm run push",
     "push": "git add * && git commit -m 'pub' && git push"
   },
